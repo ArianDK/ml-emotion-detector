@@ -13,8 +13,8 @@
 
 ## Screenshots
 <div align="center">
-    <img src="./assets/screenshots/capture.png" alt="Screenshot 1" style="height: 300px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/screenshots/capture2.png" alt="Screenshot 2" style="height: 300px;">
+    <img src="./assets/screenshots/capture.PNG" alt="Screenshot 1" style="height: 300px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="./assets/screenshots/capture2.PNG" alt="Screenshot 2" style="height: 300px;">
 </div>
 
 ## Project Structure
