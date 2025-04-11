@@ -7,8 +7,9 @@
 - Real-time facial emotion detection using webcam
 - Trained on the [FER2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 - ResNet-18 architecture fine-tuned for grayscale emotion classification
+- Detects faces using OpenCV’s Haar Cascade classifier.
+- Displays emotion labels on webcam video feed with bounding boxes.
 - Automatic class name detection from dataset folder structure
-- GPU acceleration using CUDA (if available)
 
 ## Project Structure
 
