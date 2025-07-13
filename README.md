@@ -38,7 +38,8 @@ ml-emotion-detector/
 │       ├── angry/
 │       ├── happy/
 │       └── ...
-└── trained_model.pth      # Saved model weights after training
+│── trained_model.pth      # Saved model weights after training
+└── plot_image_batch.py    # Plots your data and compares with label.
 ```
 
 ## Installation
@@ -100,6 +101,19 @@ python run_inference.py
 - **Mismatch in output size**: Make sure your model was trained with the same number of emotion classes you are using during inference.
 - **Model loads but predictions are inaccurate**: Retrain using more balanced or cleaned datasets. FER2013 can be noisy.
 
+## Future work
+- Improve label quality in the training set:
+    - 7 images in a sample batch were mislabelled (red boxes)
+    - 3 images were questionable (yellow boxes)
+    - Label noise confuses the model during training
+    - Reduces accuracy and increases misclassification
+    - Better labels = better performance
+
+<div align="center">
+    <img src="./assets/capture3.PNG" alt="Screenshot 1" style="height: 300px;">
+</div>
+
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
@@ -109,7 +123,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 - FER2013 Dataset by Kaggle
 - PyTorch and torchvision teams
 - OpenCV contributors
-
----
-
-Developed by [Your Name or GitHub Handle](https://github.com/your-username)
