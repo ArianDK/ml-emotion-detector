@@ -17,6 +17,15 @@
     <img src="./assets/capture2.PNG" alt="Screenshot 2" style="height: 300px;">
 </div>
 
+## Training parameters
+- **Input size:** 224×224
+- **Batch size:** 32
+- **Epochs:** 10
+- **Learning rate:** 0.001
+- **Optimizer:** Adam
+- **Loss function:** CrossEntropyLoss
+
+
 ## Project Structure
 
 ```
@@ -108,6 +117,7 @@ python run_inference.py
     - Label noise confuses the model during training
     - Reduces accuracy and increases misclassification
     - Better labels = better performance
+    - Bellow is a small sample of the training data.
 
 <div align="center">
     <img src="./assets/Capture3.PNG" alt="Screenshot 3" style="height: 300px;">
