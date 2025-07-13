@@ -57,7 +57,7 @@ ml-emotion-detector/
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/ml-emotion-detector.git
+git clone https://github.com/ArianDK/ml-emotion-detector.git
 cd ml-emotion-detector
 ```
 
