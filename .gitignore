@@ -2,3 +2,7 @@
 dataset
 full_dataset
 my_data
+
+# Ignore common files
+__pycache__/
+trained_model.pth
