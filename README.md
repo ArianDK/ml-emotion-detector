@@ -24,7 +24,9 @@
 - **Learning rate:** 0.001
 - **Optimizer:** Adam
 - **Loss function:** CrossEntropyLoss
-
+- **Number of dataset samples:** 3150 Images
+- **Training data size:** 2450
+- **Validation data size:** 700
 
 ## Project Structure
 
