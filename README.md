@@ -104,7 +104,7 @@ python run_inference.py
 ## Future work
 - Improve label quality in the training set:
     - 7 images in a sample batch were mislabelled (red boxes)
-    - 3 images were questionable (yellow boxes)
+    - 4 images were questionable (yellow boxes)
     - Label noise confuses the model during training
     - Reduces accuracy and increases misclassification
     - Better labels = better performance
