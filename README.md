@@ -110,7 +110,7 @@ python run_inference.py
     - Better labels = better performance
 
 <div align="center">
-    <img src="./assets/capture3.PNG" alt="Screenshot 1" style="height: 300px;">
+    <img src="./assets/Capture3.PNG" alt="Screenshot 3" style="height: 300px;">
 </div>
 
 
